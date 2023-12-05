@@ -8,14 +8,7 @@
     "setup": "node ./lib/setup.mjs"
   },
   "dependencies": {
-    "@planetscale/database": "^1.11.0",
-    "@vercel/analytics": "^1.1.1",
-    "@vercel/edge-config": "^0.4.1",
-    "kysely": "^0.26.3",
-    "kysely-planetscale": "^1.4.0",
-    "next": "^14.0.1",
-    "next-auth": "5.0.0-beta.2",
-    "next-contentlayer": "^0.3.4"
+    "next": "^14.0.1"
   },
   "devDependencies": {
   }
