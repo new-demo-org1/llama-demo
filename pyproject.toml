@@ -1,3 +1,18 @@
+[tool.poetry]
+name = "langchain-monorepo"
+version = "0.0.1"
+description = "LangChain mono-repo"
+authors = []
+license = "MIT"
+readme = "README.md"
+repository = "https://www.github.com/langchain-ai/langchain"
+
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+
+[tool.poetry.group.docs.dependencies]
+
 langchain = { path = "libs/langchain/", develop = true }
 langchain-experimental = { path = "libs/experimental/", develop = true }
 langchainhub = {}
