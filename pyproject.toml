@@ -10,9 +10,10 @@ repository = "https://www.github.com/langchain-ai/langchain"
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<4.0"
-
-[tool.poetry.group.docs.dependencies]
-langchain = ">=3.8.1,<4.0"
+langchain = { path = "libs/langchain/", develop = true }
 langchain-experimental = ">=3.8.1,<4.0"
 langchainhub = ">=3.8.1,<4.0"
 langchain-core = ">=3.8.1,<4.0"
+
+
+[tool.poetry.group.docs.dependencies]
