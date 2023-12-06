@@ -1,0 +1,1 @@
+langchain = { path = "libs/langchain/", develop = true }
