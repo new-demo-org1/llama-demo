@@ -1,1 +1,4 @@
 langchain = { path = "libs/langchain/", develop = true }
+langchain-experimental = { path = "libs/experimental/", develop = true }
+langchainhub = {}
+langchain-core = {}
